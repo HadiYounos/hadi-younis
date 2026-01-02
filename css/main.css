@@ -153,7 +153,9 @@ span{
 }
 
 header{
-    height: 100vh;
+    position: relative;
+  height: 100vh; /* أو أي ارتفاع تريده */
+  overflow: hidden;
 
 }
 body{
@@ -856,3 +858,4 @@ a{
  .success-close:hover {
      background: #45a049;
  }
+
