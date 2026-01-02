@@ -96,6 +96,21 @@ span::after {
      font-family: "DM Serif Display", serif !important;
      font-size: 42px !important;
  }
+ .Visual {
+     font-family: "DM Serif Display", serif;
+     font-weight: bold;
+     font-size: 49px !important;
+ }
+  .Touch {
+      font-family: "DM Serif Display", serif;
+      font-size: 49px !important;
+      font-weight: bold;
+  }
+  .projects p {
+      font-family: "DM Serif Display", serif;
+      font-size: 49px !important;
+      font-weight: bold;
+  }
  
 }
 
@@ -106,9 +121,10 @@ span::after {
 }
 
  .hadi {
-     width: 100%;
+     max-width: 90%;
      font-family: "DM Serif Display", serif;
-     font-size: 32px;
+     font-size: 29px;
+    text-wrap: balance;
  }
 
 span{
@@ -118,7 +134,7 @@ span{
 }
 
 header{
-    height: 100vh;
+    height: 90vh;
     padding-top: 10%;
 }
 body{
@@ -144,6 +160,7 @@ body{
 }
 .navbar-brand{
     transition: all .5s ease-in-out;
+    font-size: 15px;
 
 }
 .navbar-brand:hover{
@@ -170,6 +187,11 @@ body{
     background-color: rgba(255, 255, 255, .05);
     letter-spacing: 3px;
     transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    white-space: nowrap;
 }
 .DOWNLOAD a{
     color: #eabe7b;
@@ -184,7 +206,8 @@ body{
 .Visual {
     font-family: "DM Serif Display", serif;
     font-weight: bold;
-    font-size: 39px;
+    font-size: 30px;
+    text-wrap: balance;
 }
 .University{
     letter-spacing: 3px;
@@ -203,7 +226,7 @@ h3{
 }
 .projects p{
     font-family: "DM Serif Display", serif;
-    font-size: 49px;
+    font-size: 30px;
     font-weight: bold;
 }
 .projects h2{
@@ -409,7 +432,7 @@ a{
  }
  .Touch{
     font-family: "DM Serif Display", serif;
-    font-size: 49px;
+    font-size: 30px;
     font-weight: bold;
  }
  .Reach{
