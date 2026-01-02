@@ -1,6 +1,7 @@
 @media (min-width: 990px) {
 .nav-link {
     font-size: 10px;
+    text-wrap: nowrap;
     letter-spacing: 2px;
     }
 .navbar-brand{
@@ -26,6 +27,7 @@ span::after {
     .nav-item:hover{
         background-color: rgba(255, 255, 255, .05);
     }
+
     .about-me {
         margin-left: -50px;
     }
@@ -111,6 +113,9 @@ span::after {
       font-size: 49px !important;
       font-weight: bold;
   }
+  .passion{
+    font-size: 49px !important;
+  }
  
 }
 
@@ -118,6 +123,19 @@ span::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    margin-top: 12%;
 }
 
  .hadi {
@@ -131,11 +149,12 @@ span{
     color: #eabe7b;
     position: relative;
     letter-spacing: 2px;
+    padding-top: 10%;
 }
 
 header{
-    height: 90vh;
-    padding-top: 10%;
+    height: 100vh;
+
 }
 body{
     background-color: #141516;
@@ -145,11 +164,11 @@ body{
     border-bottom: 1px solid rgba(255, 255, 255, .05);
     transition: all 0.3s;
     position: fixed;
-        top: 0;
-            left: 0;
-            right: 0;
-            background-color: #141516;
-            z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #141516;
+    z-index: 2;
 }
 
 .navbar-toggler{
@@ -171,6 +190,10 @@ body{
     color: #eabe7b;
     position: relative;
     letter-spacing: 2px;
+}
+
+.Education{
+    font-size: 15px;
 }
 
 .text{
@@ -203,6 +226,48 @@ body{
 .DOWNLOAD:hover a{
     color: #141516;
 }
+
+
+.services{
+    margin-top: 10%;
+}
+
+.Capabilities{
+    font-size: 13px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-wrap: balance;
+    color: #eee7ee;
+}
+
+.passion{
+    font-size: 30px;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    color: #eee7ee;
+}
+
+.number{
+    font-size: 50px;
+    color: #eabe7b;
+    margin: 15px 0;
+}
+.Brand{
+    font-size: 28px;
+    color: #eee7ee;
+    letter-spacing: 3px;
+    font-family: "Public Sans",sans-serif;
+    margin: 15px 0;
+}
+
+.Sit{
+    font-size: 14px;
+    color: #eee7ee;
+    letter-spacing: 0px;
+    font-family: "Public Sans", sans-serif;
+}
+
 .Visual {
     font-family: "DM Serif Display", serif;
     font-weight: bold;
@@ -459,6 +524,11 @@ a{
     background-color: rgba(255, 255, 255, .05);
     letter-spacing: 3px;
     transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    white-space: nowrap;
  }
  .HELLO:hover {
      background-color: #eee7ee;
